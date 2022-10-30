@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #40575e;
+    position: relative;
+}
+.bg{
+    min-height: 100vh;
+    margin: 0 10% 0 10%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/city.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-color: #f5eddce5;
+    display: flex;
+    padding: 5px 5%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+/* defining size for logo */
+nav img{
+    width: 64px;
+    height: 64px;
+}
+/* definging pos and look of link buttons */
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: #A2B5BB;
+    border: 1px solid #A2B5BB;
+    padding: 12px 36px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.nav-links ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 13px;
+}
+/* animated bg when hovering buttons */
+.nav-links ul li:hover{
+    border: 1px solid #A2B5BB;
+    background: #A2B5BB;
+    transition-duration: 0.3s;
+}
+/* text for first page */
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box img{
+    margin: 0 10% 0 10%;
+    width: 64%;
+}
+.text-box h1{
+    font-size: 64px;
+    color: #CFD2CF;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 16px;
+    color: #CFD2CF;
+}
+
+
+/* --- products ---- */
+.products{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #40575e;
+}
+.defbg{
+    min-height: 100vh;
+    margin: 0 10% 0 10%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/defaultbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.prodimg img{
+    margin: 0 10%;
+    width: 80%;
+    height: 20vh;
+}
+.products h1{
+    padding-top: 10%;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+.products p{
+    text-align: left;
+    margin-left: 10%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.row{
+    padding-top: 5%;
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-col{
+    flex-basis: 31%;
+    background: #e9f7ff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: 0.2s;
+    overflow: hidden;
+    height: 100%;
+    margin: 0 20px 20%;
+}
+.product-col img{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.product-col h3{
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #000000;
+}
+.product-col p{
+    color: #000000;
+    margin: 0 10% 10px;
+}
+.product-col:hover{
+    box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/*----- contactus page--------*/
+.contact-us{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #40575e;
+}
+.contact-row{
+    padding-top: 40%;
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 20%;
+}
+.contact-col h1{
+    padding: 0;
+    color: #CFD2CF;
+    font-weight: 400;
+    font-size: 36px;
+}
+.contact-col p{
+    padding: 20px;
+    color: #CFD2CF;
+    font-weight: 400;
+    font-size: 24px;
+}
