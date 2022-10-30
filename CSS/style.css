@@ -42,7 +42,7 @@ nav img{
     color: #A2B5BB;
     border: 1px solid #A2B5BB;
     padding: 12px 36px;
-    font-size: 14px;
+    font-size: 1rem;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -50,7 +50,7 @@ nav img{
 .nav-links ul li a{
     color: #000000;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 1rem;
 }
 /* animated bg when hovering buttons */
 .nav-links ul li:hover{
@@ -71,14 +71,19 @@ nav img{
 .text-box img{
     margin: 0 10% 0 10%;
     width: 64%;
+    max-height: 40vh;
 }
 .text-box h1{
-    font-size: 64px;
+    font-size: 4rem;
     color: #CFD2CF;
 }
 .text-box p{
+    max-width: 80vw;
+    position: absolute;
+    left: 25%;
+    text-align: center;
     margin: 10px 0 40px;
-    font-size: 16px;
+    font-size: 1rem;
     color: #CFD2CF;
 }
 
@@ -108,7 +113,7 @@ nav img{
     padding-top: 10%;
     text-align: left;
     margin-left: 10%;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 700;
     color: #fff;
 }
@@ -116,7 +121,7 @@ nav img{
     text-align: left;
     margin-left: 10%;
     color: #fff;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 22px;
 }
@@ -183,11 +188,11 @@ nav img{
     padding: 0;
     color: #CFD2CF;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2rem;
 }
 .contact-col p{
     padding: 20px;
     color: #CFD2CF;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
