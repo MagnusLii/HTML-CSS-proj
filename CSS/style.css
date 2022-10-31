@@ -31,7 +31,7 @@ nav img{
     width: 64px;
     height: 64px;
 }
-/* definging pos and look of link buttons */
+/* defining pos and look of link buttons */
 .nav-links{
     flex: 1;
     text-align: right;
@@ -74,7 +74,6 @@ nav img{
     max-height: 40vh;
 }
 .text-box h1{
-    font-size: 4rem;
     color: #CFD2CF;
     font-size: 5vw;
 }
@@ -183,8 +182,12 @@ nav img{
     justify-content: space-between;
     align-items: center;
 }
+.contact-row iframe{
+    width: 30vw !important;
+    height: 30vh !important;
+}
 /*@media screen and (max-width: 1300px){
-    ifame{
+    iframe{
         width: 20px !important;
     }
 }*/
@@ -196,13 +199,11 @@ nav img{
     padding: 0;
     color: #CFD2CF;
     font-weight: 400;
-    font-size: 2rem;
     font-size: 3vw;
 }
 .contact-col p{
     padding: 20px;
     color: #CFD2CF;
     font-weight: 400;
-    font-size: 1.5rem;
     font-size: 2vw;
 }
