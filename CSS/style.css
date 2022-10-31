@@ -78,7 +78,6 @@ nav img{
     color: #CFD2CF;
 }
 .text-box p{
-    max-width: 80vw;
     position: absolute;
     left: 25%;
     text-align: center;
@@ -180,6 +179,11 @@ nav img{
     justify-content: space-between;
     align-items: center;
 }
+/*@media screen and (max-width: 1300px){
+    ifame{
+        width: 20px !important;
+    }
+}*/
 .contact-col{
     flex-basis: 48%;
     margin-bottom: 20%;
