@@ -78,6 +78,7 @@ nav img{
     color: #CFD2CF;
 }
 .text-box p{
+    max-width: 80vw;
     position: absolute;
     left: 25%;
     text-align: center;
