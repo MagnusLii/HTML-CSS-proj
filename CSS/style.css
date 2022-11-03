@@ -30,11 +30,13 @@ nav{
 nav img{
     width: 64px;
     height: 64px;
+    margin-left: 5vw;
 }
 /* defining pos and look of link buttons */
 .nav-links{
     flex: 1;
     text-align: right;
+    margin-right: 5vw;
 }
 .nav-links ul li{
     display: inline-block;
